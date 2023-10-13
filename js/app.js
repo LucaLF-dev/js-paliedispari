@@ -11,15 +11,20 @@ function checkPalindromo(parola) { // Dichiarazione
 		}
 	}
 	return isPalindrome;
+
 }
 
-// - chiedere all' utente di inserire una parola
-//   - creo una variabile prompt ' inserisci una parola ' per l'utente
-//    - converto la stringa della variabile parola in minuscola
+
 const parola = prompt("inserisci una parola").toLowerCase();
 console.log(parola);
 const risultato = checkPalindromo(parola); // Invocazione
+console.log(risultato)
  
+if (risultato = true) {
+	console.log( ' la parola è palindroma')
+} else {
+	console.log('la parola non è palindroma')
+}
 
 
 
@@ -55,7 +60,7 @@ if ((totale === 'pari' && utentePariODispari === 'pari') ||
 (totale === 'dispari' && utentePariODispari === 'dispari')) {
 
 } else {
-
+  
 }
 
 // Invocazioni
